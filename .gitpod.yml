@@ -1,0 +1,9 @@
+image: gitpod/workspace-full
+
+tasks:
+  - name: initialisation de boost
+    command: sudo apt-get install -y libboost1.71-all-dev
+  - name: init des variable d'env
+    env:
+      MY_VAR: OKI_DOKI_MA_VARIABLE
+      
